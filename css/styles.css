@@ -59,7 +59,7 @@ body {
     margin-right: auto;
 }
 
-/*cap*/
+/*---------------cap--------------*/
 
 .page-header {
     padding-top: 24px;
@@ -175,7 +175,9 @@ body {
     margin-left: auto;
 }
 
-/*hero*/
+/*---------------cap--------------*/
+
+/*---------------hero---------------*/
 
 .hero {
     width: 1440px;
@@ -229,7 +231,9 @@ body {
     margin-top: 48px;
 }
 
-/*description*/
+/*---------------hero---------------*/
+
+/*---------------description---------------*/
 
 .visually-hidden {
     position: absolute;
@@ -317,7 +321,9 @@ body {
     padding-bottom: 60px;
 }
 
-/*What are we doing*/
+/*---------------description---------------*/
+
+/*---------------What are we doing---------------*/
 
 .subtitle {
     font-weight: 600;
@@ -350,7 +356,9 @@ body {
     margin-right: 24px;
 }
 
-/*Our Team*/
+/*---------------What are we doing---------------*/
+
+/*---------------Our Team---------------*/
 
 .photo-link {
     width: 264px;
@@ -427,7 +435,9 @@ body {
     margin-right: auto;
 }
 
-/*Customers*/
+/*---------------Our Team---------------*/
+
+/*---------------Customers--------------*/
 
 .customers {
     padding-top: 120px;
@@ -478,7 +488,9 @@ body {
     fill: var(--accent-color);
 }
 
-/*footer*/
+/*---------------Customers--------------*/
+
+/*---------------footer---------------*/
 
 .footer {
     background-color: var(--title-color);
@@ -621,7 +633,9 @@ body {
     background-color: var(--accent-color-hover);
 }
 
-/*backdrop*/
+/*---------------footer---------------*/
+
+/*---------------backdrop---------------*/
 
 .backdrop {
     position:fixed;
@@ -665,13 +679,14 @@ body {
     background-color: var(--dark-theme-text);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    transition: border var(--transition-duration), box-shadow var(--transition-duration);
+    transition: border var(--transition-duration), background-color var(--transition-duration),fill var(--transition-duration);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
     border: transparent;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    background-color: var(--accent-color-hover);
+    fill: var(--background-color-light);
 }
 
 .modal-svg {
@@ -679,7 +694,9 @@ body {
     height: 8px;
 }
 
-/*modal-form*/
+/*---------------backdrop---------------*/
+
+/*---------------modal-form----------------*/
 
 .modal-form-title {
     font-weight: 500;
@@ -809,7 +826,13 @@ body {
     margin-top: 24px;
 }
 
-/*portfolio*/
+.privacy-policy {
+    color: var(--accent-color);
+}
+
+/*---------------modal-form---------------*/
+
+/*---------------portfolio---------------*/
 
 .portfolio-btn {
     width: 700px;
@@ -893,6 +916,8 @@ body {
 .portfolio-link:focus .overlay {
     transform: translate(0, 0);
 }
+
+/*---------------portfolio--------------*/
 
 
 
